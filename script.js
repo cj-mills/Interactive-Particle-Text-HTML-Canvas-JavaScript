@@ -11,7 +11,7 @@ let adjustY = -10;
 const mouse = {
     x: null,
     y: null,
-    radius: 200
+    radius: 125
 }
 
 window.addEventListener('mousemove', function (event) {
@@ -22,7 +22,7 @@ window.addEventListener('mousemove', function (event) {
 
 ctx.fillStyle = 'white'
 ctx.font = '40px Verdana';
-ctx.fillText('GM', 10, 60);
+ctx.fillText('Text', 1.55, 60);
 
 const width = canvas.width;
 const height = canvas.height;
